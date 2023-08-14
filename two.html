@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Setup</title>
+    <link rel="stylesheet" href="input.css">
+</head>
+
+<body class="flex h-screen">
+    <div class="flex justify-center align-middle w-1/2 h-auto">
+        <div class="center m-auto w-96 h-auto">
+            <h1 class="mb-2 text-4xl text-extrabold text-blue-950 font-bold">Profile Setup</h1>
+            <p class="text-sm">Let's setup your profile</p>
+            <form>
+                <label class="text-xs text-blue-950" for="Full Name">Full Name</label><br />
+                <input class="w-full border-2 rounded mb-1" type="text" id="Full Name"
+                    placeholder="Enter full name"><br />
+                <label class="text-xs text-blue-950" for="email Id">Email Id</label><br />
+                <input class="w-full border-2 rounded mb    -1" type="text" id="email Id" placeholder="Enter email id">
+                <label class="text-xs text-blue-950" for="country">Country</label><br />
+                <input class="w-full border-2 rounded mb-1" type="text" id="country" placeholder="Select Country">
+                <label class="text-xs text-blue-950" for="stage">Stage</label><br />
+                <input class="w-full border-2 rounded mb-1" type="text" id="stage" placeholder="Select Stage">
+                <label class="text-xs text-blue-950" for="property">Property Type</label><br />
+                <input class="w-full border-2 rounded mb-1" type="text" id="property"
+                    placeholder="Select Property Type">
+                <label class="text-xs text-blue-950" for="Create Password">Create Password</label><br />
+                <input class="w-full border-2 rounded mb-1" type="text" id="create Password"
+                    placeholder="create password">
+                <label class="text-xs text-blue-950" for="confirm Password">Confirm Password</label><br />
+                <input class="w-full border-2 rounded mb-1" type="text" id="confirm Password"
+                    placeholder="confirm password">
+                <div class="flex justify-between">
+                    <div class="flex">
+                        <div class="p-1"><input type="checkbox"></div>
+                        <div class="p-1 font-medium text-blue-950">
+                            <p>I Agree to all <a class="underline">Terms & Conditions</a></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="p-1"><a>Help?</a></div>
+                    </div>
+                </div>
+                <button class="w-full mt-3 mb-2 rounded-md h-8 bg-blue-950 text-white" type="submit">Submit</button>
+
+            </form>
+        </div>
+    </div>
+    <div class="flex justify-center align-middle w-1/2 h-screen bg-cover bg-center bg-[url('images/login_image.png')]">
+        <div class="center m-auto w-96 h-auto">
+            <img src="images/login_image_2.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
