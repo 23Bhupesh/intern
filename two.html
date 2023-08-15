@@ -4,56 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Setup</title>
+    <title>OTP Page</title>
     <link rel="stylesheet" href="input.css">
-    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="flex h-screen">
     <div class="flex justify-center align-middle w-1/2 h-auto">
-        <div class="center m-auto w-96 h-auto">
-            <h1 class="mb-2 text-4xl text-extrabold text-blue-950 font-bold">Profile Setup</h1>
-            <p class="text-sm">Let's setup your profile</p>
-            <form>
-                <label class="text-xs text-blue-950" for="Full Name">Full Name</label><br />
-                <input class="w-full border-2 rounded mb-1" type="text" id="Full Name"
-                    placeholder="Enter full name"><br />
-                <label class="text-xs text-blue-950" for="email Id">Email Id</label><br />
-                <input class="w-full border-2 rounded mb    -1" type="text" id="email Id" placeholder="Enter email id">
-                <label class="text-xs text-blue-950" for="country">Country</label><br />
-                <input class="w-full border-2 rounded mb-1" type="text" id="country" placeholder="Select Country">
-                <label class="text-xs text-blue-950" for="stage">Stage</label><br />
-                <input class="w-full border-2 rounded mb-1" type="text" id="stage" placeholder="Select Stage">
-                <label class="text-xs text-blue-950" for="property">Property Type</label><br />
-                <input class="w-full border-2 rounded mb-1" type="text" id="property"
-                    placeholder="Select Property Type">
-                <label class="text-xs text-blue-950" for="Create Password">Create Password</label><br />
-                <input class="w-full border-2 rounded mb-1" type="text" id="create Password"
-                    placeholder="create password">
-                <label class="text-xs text-blue-950" for="confirm Password">Confirm Password</label><br />
-                <input class="w-full border-2 rounded mb-1" type="text" id="confirm Password"
-                    placeholder="confirm password">
-                <div class="flex justify-between">
-                    <div class="flex">
-                        <div class="p-1"><input type="checkbox"></div>
-                        <div class="p-1 font-medium text-blue-950">
-                            <p>I Agree to all <a class="underline">Terms & Conditions</a></p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="p-1"><a>Help?</a></div>
-                    </div>
+        <div class="center m-auto w-[29.188rem] h-auto">
+            <div>
+                <h1 class="h-[3.375rem] w-[5.063rem] tracking-[0.01rem] text-[#002550] font-bold text-[2.5rem] leading-[3.404rem] font-sans">OTP</h1>
+            </div>
+            <div class="w-[18.625rem] h-[1.5rem]">
+                <p class="font-sans font-normal text-[1rem] leading-[1.5rem] mt-[0.2rem]"> Please enter OTP to verify your account.</p>
+            </div>
+            <div class="gap-[0.375rem] w-[29.188rem] mt-[2.5rem]">
+                <div class="h-[1.375rem]">
+                    <p class="leading-[1.375rem] font-semibold text-[15px] font-sans text-[#6F6B7D]">Type your 6 digit security code
+                    </p>
                 </div>
-                <button class="w-full mt-3 mb-2 rounded-md h-8 bg-blue-950 text-white" type="submit">Submit</button>
-
-            </form>
+                <div class="flex gap-[1rem] mt-[0.4rem] mb-[2.5rem]">
+                    <div class="h-[3rem] w-[4.239rem] rounded-lg border-[0.063rem]"></div>
+                    <div class="h-[3rem] w-[4.239rem] rounded-lg border-[0.063rem]"></div>
+                    <div class="h-[3rem] w-[4.239rem] rounded-lg border-[0.063rem]"></div>
+                    <div class="h-[3rem] w-[4.239rem] rounded-lg border-[0.063rem]"></div>
+                    <div class="h-[3rem] w-[4.239rem] rounded-lg border-[0.063rem]"></div>
+                    <div class="h-[3rem] w-[4.239rem] rounded-lg border-[0.063rem]"></div>
+                </div>
+            </div>
+            <div>
+                <button class="bg-[#002550] text-white w-[29.188rem] h-[2.75rem] py-[0.75rem] px-[9.625rem] flex items-center justify-center rounded-[0.5rem] gap-[0.625rem]">Submit</button>
+            </div>
         </div>
+
     </div>
     <div class="flex justify-center align-middle w-1/2 h-screen bg-cover bg-center bg-[url('images/login_image.png')]">
         <div class="center m-auto w-96 h-auto">
             <img src="images/login_image_2.png" alt="">
         </div>
     </div>
+
 </body>
 
 </html>
