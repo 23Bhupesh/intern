@@ -9,49 +9,104 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="flex h-screen">
-    <div class="flex justify-center align-middle w-1/2 h-auto">
-        <div class="center m-auto w-96 h-auto">
-            <h1 class="mb-2 text-4xl text-extrabold text-blue-950 font-bold">Profile Setup</h1>
-            <p class="text-sm">Let's setup your profile</p>
-            <form>
-                <label class="text-xs text-blue-950" for="Full Name">Full Name</label><br />
-                <input class="w-full border-2 rounded mb-1" type="text" id="Full Name"
-                    placeholder="Enter full name"><br />
-                <label class="text-xs text-blue-950" for="email Id">Email Id</label><br />
-                <input class="w-full border-2 rounded mb    -1" type="text" id="email Id" placeholder="Enter email id">
-                <label class="text-xs text-blue-950" for="country">Country</label><br />
-                <input class="w-full border-2 rounded mb-1" type="text" id="country" placeholder="Select Country">
-                <label class="text-xs text-blue-950" for="stage">Stage</label><br />
-                <input class="w-full border-2 rounded mb-1" type="text" id="stage" placeholder="Select Stage">
-                <label class="text-xs text-blue-950" for="property">Property Type</label><br />
-                <input class="w-full border-2 rounded mb-1" type="text" id="property"
-                    placeholder="Select Property Type">
-                <label class="text-xs text-blue-950" for="Create Password">Create Password</label><br />
-                <input class="w-full border-2 rounded mb-1" type="text" id="create Password"
-                    placeholder="create password">
-                <label class="text-xs text-blue-950" for="confirm Password">Confirm Password</label><br />
-                <input class="w-full border-2 rounded mb-1" type="text" id="confirm Password"
-                    placeholder="confirm password">
-                <div class="flex justify-between">
-                    <div class="flex">
-                        <div class="p-1"><input type="checkbox"></div>
-                        <div class="p-1 font-medium text-blue-950">
-                            <p>I Agree to all <a class="underline">Terms & Conditions</a></p>
+<body class="flex">
+    <div class="flex justify-center align-middle w-[45rem] h-auto">
+        <div class="center my-[5.75rem] mx-[4rem] w-[37rem] h-[56rem]">
+            <div class="gap-2 h-[5.375rem] w-[16.375rem]">
+                <h1
+                    class="text-[2.5rem] leading-[3.404rem] tracking-[0.01rem] font-sans text-extrabold text-[#002550] font-bold">
+                    Profile Setup</h1>
+                <p class="text-[1rem] font-sans leading-[1.5rem] font-normal text-[#1A1A1A]">Let's setup your profile
+                </p>
+            </div>
+
+            <div class="mt-[2.875rem]">
+                <form>
+                    <div class="h-[4.5rem] w-[37rem] gap-2 ">
+                        <label
+                            class=" w-[4.125rem] h-[1.25rem] text-[#002550] font-sans font-normal text-[0.875rem] leading-5"
+                            for="Full Name">Full Name</label>
+                        <input class="w-full h-[2.75rem] rounded-lg border border-[#1A1A1A33] mt-[0.5rem]" type="text"
+                            id="Full Name" placeholder="    Enter full name">
+                    </div>
+
+                    <div class="h-[4.5rem] w-[37rem] gap-2 mt-[1.25rem]">
+                        <label
+                            class=" w-[4.125rem] h-[1.25rem] text-[#002550] font-sans font-normal text-[0.875rem] leading-5"
+                            for="Full Name">Email Id</label>
+                        <input class="w-full h-[2.75rem] rounded-lg border border-[#1A1A1A33] mt-[0.5rem]" type="text"
+                            id="Full Name" placeholder="    Enter email id">
+                    </div>
+
+                    <div class="h-[4.5rem] w-[37rem] gap-2 mt-[1.25rem]">
+                        <label
+                            class=" w-[4.125rem] h-[1.25rem] text-[#002550] font-sans font-normal text-[0.875rem] leading-5"
+                            for="Full Name">Country</label>
+                        <input class="w-full h-[2.75rem] rounded-lg border border-[#1A1A1A33] mt-[0.5rem]" type="text"
+                            id="Full Name" placeholder="    Select Country">
+                    </div>
+
+                    <div class="h-[4.5rem] w-[37rem] gap-2 mt-[1.25rem]">
+                        <label
+                            class=" w-[4.125rem] h-[1.25rem] text-[#002550] font-sans font-normal text-[0.875rem] leading-5"
+                            for="Full Name">Stage</label>
+                        <input class="w-full h-[2.75rem] rounded-lg border border-[#1A1A1A33] mt-[0.5rem]" type="text"
+                            id="Full Name" placeholder="    Select Stage">
+                    </div>
+
+                    <div class="h-[4.5rem] w-[37rem] gap-2 mt-[1.25rem]">
+                        <label
+                            class=" w-[4.125rem] h-[1.25rem] text-[#002550] font-sans font-normal text-[0.875rem] leading-5"
+                            for="Full Name">Property Type</label>
+                        <input class="w-full h-[2.75rem] rounded-lg border border-[#1A1A1A33] mt-[0.5rem]" type="text"
+                            id="Full Name" placeholder="    Select Property Type">
+                    </div>
+
+                    <div class="h-[4.5rem] w-[37rem] gap-2 mt-[1.25rem]">
+                        <label
+                            class=" w-[4.125rem] h-[1.25rem] text-[#002550] font-sans font-normal text-[0.875rem] leading-5"
+                            for="Full Name">Create Password</label>
+                        <input class="w-full h-[2.75rem] rounded-lg border border-[#1A1A1A33] mt-[0.5rem]" type="text"
+                            id="Full Name" placeholder="    create password">
+                    </div>
+
+                    <div class="h-[4.5rem] w-[37rem] gap-2 mt-[1.25rem]">
+                        <label
+                            class=" w-[4.125rem] h-[1.25rem] text-[#002550] font-sans font-normal text-[0.875rem] leading-5"
+                            for="Full Name">Confirm Password</label>
+                        <input class="w-full h-[2.75rem] rounded-lg border border-[#1A1A1A33] mt-[0.5rem]" type="text"
+                            id="Full Name" placeholder="    confirm password">
+                    </div>
+                    <div class="flex justify-between mt-[1.75rem]">
+                        <div class="flex gap-[0.625]">
+                            <div class=""><input
+                                    class="border border-[#D0D5DD] h-4 w-4 rounded-[0.25rem] cursor-pointer"
+                                    type="checkbox"></div>
+                            <div class="ml-[0.625rem] h-[1.25rem] font-medium text-[#344054]">
+                                <p class="text-[1rem] leading-5 gap-2">I Agree to all <a class="underline gap-2">Terms &
+                                        Conditions</a></p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="text-[#344054] text-[1rem] font-medium leading-5"><a>Help?</a></div>
                         </div>
                     </div>
-                    <div>
-                        <div class="p-1"><a>Help?</a></div>
+                    <div
+                        class="flex justify-center w-[37rem] h-[2.75rem] bg-[#002550] rounded-lg gap-[0.625rem] py-[0.75rem] px-[9.625rem] mt-[2.5rem]">
+                        <a href="four.html"><button
+                                class="h-[1.25rem] w-[3.375rem] font-medium text-[1rem] leading-5 text-[#ffffff]"
+                                type="submit">Submit</button></a>
                     </div>
-                </div>
-                <button class="w-full mt-3 mb-2 rounded-md h-8 bg-blue-950 text-white" type="submit">Submit</button>
+                </form>
 
-            </form>
+
+            </div>
         </div>
     </div>
-    <div class="flex justify-center align-middle w-1/2 h-screen bg-cover bg-center bg-[url('images/login_image.png')]">
-        <div class="center m-auto w-[31.563rem] h-[27.688rem]">
-            <img src="images/login_image_2.png" alt="">
+    <div
+        class="flex justify-center align-middle bg-cover w-[45rem] h-[67.5rem] bg-center bg-[url('images/login_image.png')]">
+        <div class="flex justify-center align-middle">
+            <img class="w-[31.563rem] h-[27.125rem] mx-[827px] my-[319px]" src="images/login_image_2.png" alt="">
         </div>
     </div>
 </body>
