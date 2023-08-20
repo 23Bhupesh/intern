@@ -10,8 +10,8 @@
 </head>
 
 <body class="flex">
-    <div class="flex justify-center align-middle w-[45rem] h-auto">
-        <div class="center my-[5.75rem] mx-[4rem] w-[37rem] h-[56rem]">
+    <div class="flex justify-center align-middle w-1/2 h-auto">
+        <div class="center m-auto w-[37rem] h-[56rem]">
             <div class="gap-2 h-[5.375rem] w-[16.375rem]">
                 <h1
                     class="text-[2.5rem] leading-[3.404rem] tracking-[0.01rem] font-sans text-extrabold text-[#002550] font-bold">
@@ -78,22 +78,30 @@
                             id="Full Name" placeholder="    confirm password">
                     </div>
                     <div class="flex justify-between mt-[1.75rem]">
-                        <div class="flex gap-[0.625]">
+                        <div class="flex gap-[0.625rem]">
                             <div class=""><input
                                     class="border border-[#D0D5DD] h-4 w-4 rounded-[0.25rem] cursor-pointer"
                                     type="checkbox"></div>
                             <div class="ml-[0.625rem] h-[1.25rem] font-medium text-[#344054]">
-                                <p class="text-[1rem] leading-5 gap-2">I Agree to all <a class="underline gap-2">Terms &
+                                <p class="text-[1rem] leading-5 gap-2">I Agree to all <a class="underline gap-2" href="">Terms &
                                         Conditions</a></p>
                             </div>
                         </div>
                         <div>
-                            <div class="text-[#344054] text-[1rem] font-medium leading-5"><a>Help?</a></div>
+                            <div class="text-[#344054] text-[1rem] font-medium leading-5"><a href="">Help?</a></div>
                         </div>
                     </div>
-                    <div class="flex justify-center w-[37rem] h-[2.75rem] bg-[#002550] rounded-lg gap-[0.625rem] py-[0.75rem] px-[9.625rem] mt-[2.5rem]">
+                    <!-- <div class="flex justify-center w-[37rem] h-[2.75rem] bg-[#002550] rounded-lg gap-[0.625rem] py-[0.75rem] px-[9.625rem] mt-[2.5rem]">
                         <button class="h-[1.25rem] w-[3.375rem] font-medium text-[1rem] leading-5 text-[#ffffff]"
                                 type="submit"><a href="four.html">Submit</a></button>
+                    </div> -->
+                    <div
+                        class=" flex  justify-center items-center w-[37rem] h-[2.75rem] rounded-lg bg-[#002550] gap-[0.625rem] mt-[2.5rem]">
+                        <button type="button"
+                            class="h-[1.25rem] w-[3.375rem] text-[1rem] font-medium leading-5 font-sans text-white"
+                            onclick="window.location.href = 'four.html';">
+                            Submit
+                        </button>
                     </div>
                 </form>
 
@@ -102,9 +110,9 @@
         </div>
     </div>
     <div
-        class="flex justify-center align-middle bg-cover w-[45rem] h-[67.5rem] bg-center bg-[url('images/login_image.png')]">
+        class="flex justify-center align-middle bg-cover w-1/2 h-[67.5rem] bg-center bg-[url('images/login_image.png')]">
         <div class="flex justify-center align-middle">
-            <img class="w-[31.563rem] h-[27.125rem] mx-[827px] my-[319px]" src="images/login_image_2.png" alt="">
+            <img class="w-[31.563rem] h-[27.125rem] m-auto" src="images/login_image_2.png" alt="">
         </div>
     </div>
 </body>
