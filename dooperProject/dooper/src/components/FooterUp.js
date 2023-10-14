@@ -7,9 +7,9 @@ import mail from "../images/mail.svg"
 
 function FooterUp() {
   return (
-    <div className="flex h-[20.938rem] w-full pt-[3rem] gap-[2.5rem] justify-around bg-[#B60336] text-white font-sans
+    <div className="flex h-[20.938rem] w-full px-4 pt-[3rem] gap-[2.5rem] justify-around bg-[#B60336] text-white font-sans
     ">
-      {/* <div className="flex gap-[1.875rem] h-[15.5rem] "> */}
+      
 
       {/* Section-1 */}
 
@@ -95,7 +95,7 @@ function FooterUp() {
         </div>
       </div>
     </div>
-    // </div>
+    
   );
 }
 
